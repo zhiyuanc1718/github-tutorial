@@ -32,7 +32,7 @@ In order to interact with the Github system, creating a Github account is essent
 9. **You have successfully created a Github account!!**  
 
 ## SSH Key Setup
-1. Go on [c9.io](https://c9.io) to get the SSH key
+1. Go on [**_c9.io_**](https://c9.io) to get the SSH key
 2. Create new account if you do not have one or sign in with existing account
       *  If you create your own account, you will likely need a credit card.
 3. Click on the settings icon on the upper right
@@ -61,7 +61,62 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 ```
 git remote add origin git@github.com:git-us/git-tutorial-demo.git
 git push -u origin master
+
 ```
+9. Go back to cloud9
+      * If you do not have a workspace then follow these steps:
+      * Click "**_Create a new workspace_**"
+      * Give the workspace a name and optional description
+      * Choose a template (for this tutorial, we are using **_Blank_**)
+10. Open up your workspace if you haven't
+11. You will see a **terminal** called **_Bash_**
+12. A **README.md** will be opened.
+13. On the left side bar, a folder will be named after your workspace's name  
+      ```
+      Note that this folder cannot be a repository because it is our main workspace 
+      folder that holds every other repositories and files. 
+      ```
+14. On the left side bar, right click and choose **New Folder**
+15. Give it the name of your Github repository
+16. Put your cursor over README.md file and drag it into the new folder. 
+17. On the terminal **Bash**, type :  
+      ```
+      cd folder_name
+      git init
+      ```
+      For folder_name, replace that with your repository's name  
+      My command would then be **cd git-tutorial-demo**
+18. You are now starting a git project
+      ```
+      :~/workspace/git-tutorial-demo (master) $ 
+      ```
+      You should see something like the line above in the terminal
+19. Now open the README.md file editor by typing this into terminal :
+      ```
+      c9 README.md
+      ```
+      remember to press **ENTER** after the command  
+      md stands for markdown and you can edit the README.md in any way you like.
+20. Remember to save the edited README.   
+      `
+      click inside the README and press control s (Windows) or command s (Mac)
+      `
+21. Click on to the terminal and type one of these comamnds :  
+      ```
+      git add README.md       
+      git add .
+      ```
+22. Now following the previous command, type :  
+      ```
+      git commit -m "Edit README"
+      ```
+23.
+      Paste the copied commands from before (**STEP 8**)
+      ```
+      git remote add origin git@github.com:git-us/git-tutorial-demo.git
+      git push -u origin master
+      ```
+23. Go on to your Github repository page and you should see your files **:)**
 ---
 ## Workflow & Commands
 
