@@ -5,15 +5,13 @@ _by Zhiyuan Chen_
 ---
 ## Git vs. GitHub
 * Git  
-    * A version control system that tracks changes made to folders or files.
-    * Shows users a list of changes with a message that the user gave to git  
-      When users request for the change history. 
+    > A version control system that tracks changes made to folders or files.  
+    > Shows users a list of changes with a message that the user gave to git      
+    > when users request for the change history.   
 * GitHub 
-    * Using git's system of version control and adding in visuals that    
-      help people easily see changes. 
-    * This online website allows collaboration between many programmers   
-      because programmers can access each other's code and make changes  
-      that the original creator might approve.
+    > Github uses git's system of version control and adding in visuals that help people easily see changes.   
+    > This online website allows collaboration between many programmers because programmers can access 
+    > each other's code and make changes that the original creator might approve.  
 ---
 ## Initial Setup
 In order to interact with the Github system, creating a Github account is essential.  
@@ -122,7 +120,7 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 |--------------|------|-------|
 |cd|`cd [folder_name]`|move your current path to a different path (change of location in file system)
 |mkdir|`mkdir [name]`|creates a new folder that holds folders/files
-|rmdir|`rmdir [name]`|deletes the folder or directory if name exist
+|rmdir|`rmdir [name]`|deletes an empty folder or directory if name exist
 |touch|`touch [file_name`]|creates a new file in the current directory
 |rm|`rm [file_name]`|deletes a file given name exist
 |mv (1)|`mv [old_name] [new_name]`|renames a file or folder
@@ -200,7 +198,7 @@ _**Use these commands in this order, exceptions to `git status`/`git remote -v`*
       > By typing this command, if nothing shows up, then you have not connected remote to your local repo  
       > With proper setup, you should see something like below :
 
-      ```
+      ```bash
       origin  git@github.com:username/repository_name (fetch)
       origin  git@github.com:username/repository_name (push)
       ```
@@ -227,14 +225,28 @@ If you ever mess up your files or saved something you didn't want to... well und
       3. Remove the commit, unstage and undo edits : `git reset --hard HEAD~1`  
 * Undo git push : want to remove what you push/upload to Github?  
       `git revert commit_SHA` : to find the SHA a specific code given to each commit, type: `git log`  
-      > Find the SHA code of the previous commits and to quit the log, press `q`  
-      > You may chain a list of SHA by adding another SHA after the most recent commit  
-      > This will bring you back 2 commits and so on if you repeat.  
+> Find the SHA code of the previous commits and to quit the log, press **`q`**  
+> You may chain a list of SHA by adding another SHA after the most recent commit  
+> This will bring you back 2 commits and so on if you repeat.  
 
-## Removing a repository on Github  
+## Removing repository on Github/Local
 If you somehow what to delete your Github remote... then Follow these Instructions :  
 
 1. Open up your repository on Github
 2. Go to the settings of the repository
-![settings](Repo-view.png)
-3. 
+3. Scroll all the way down to an area called danger zone
+4. Click `Delete this repository`
+5. Enter the name of the repository in the pop up
+6. Well.. there you go. You have deleted your remote
+
+If you want to remove the local repository... then Follow these Instructions as well :
+
+1. Deleting the folder first requires you to be in its parent folder
+2. For example you will see in the terminal : `~/workspace/music (master) $ `  
+3. This means that you are currently within a folder with parent folder as `workspace`
+4. you will then use the following two commands to the right of the shell prompt `$`
+```bash
+gitus12345:~/workspace/music (master) $ cd ~/workspace
+gitus12345:~/workspace $ rm -rf music 
+```
+And no, you will not type `music` like shown. Replace that with your local repository folder name !!
