@@ -14,7 +14,6 @@ _by Zhiyuan Chen_
     > each other's code and make changes that the original creator might approve. 
 
 ---
-
 ## Initial Setup
 In order to interact with the Github system, creating a Github account is essential.  
 **Note : All of this is subject to change by Github. This tutorial is made in October 2018**
@@ -117,8 +116,8 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 24. Go on to your Github repository page and you should see your files uploaded
       > You have completed the setup for the repository !!  
       > It is time to understand all those git commands !!
----
 
+---
 ## Workflow & Commands
 #### Command Line commands (Terminal Use)
 > This is just a list of commands that would make coding in the terminal faster
@@ -155,6 +154,7 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 ||`git push`|This command can be used once the previous command has been used.
 |log|`git log`|Shows the history of commits to the user in order from most recent to oldest
 
+---
 #### General Workflow
 * Repository Setup
 * Editing and saving Files
