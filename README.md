@@ -11,7 +11,8 @@ _by Zhiyuan Chen_
 * GitHub 
     > Github uses git's system of version control and adding in visuals that help people easily see changes.   
     > This online website allows collaboration between many programmers because programmers can access 
-    > each other's code and make changes that the original creator might approve.  
+    > each other's code and make changes that the original creator might approve. 
+
 ---
 
 ## Initial Setup
@@ -121,6 +122,8 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 ## Workflow & Commands
 #### Command Line commands (Terminal Use)
 
+> This is just a list of commands that would make coding in the terminal faster
+
 |Basic Commands|Syntax (Format)|Purpose and Use
 |--------------|------|-------|
 |cd|`cd [folder_name]`|move your current path to a different path (change of location in file system)
@@ -131,6 +134,8 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 |mv (1)|`mv [old_name] [new_name]`|renames a file or folder
 |mv (2)|`mv [name] [existing_name]`|moves one file/folder into another
 |c9|`c9 [file_name]`|quick way to open a file  
+|ls|`ls -`a``l``t`| list out files. a for hidden, l for long format, t for chronological order
+|pwd| `pwd`| unnecessary if you work in the c9 terminal. it tells you the current directory you are in
 > Note that these commands might come handy but not necessary in working with git
 
 #### Git commands (Necessary)
