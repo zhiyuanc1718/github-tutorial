@@ -27,6 +27,7 @@ In order to interact with the Github system, creating a Github account is essent
 7. Choose the free plan or spend $7 for the paid plan
 8. As you approach step 3 on Github, answer the questions about your experience
       > You have successfully created a Github account!!
+
 ## SSH Key Setup
 1. Go on [**_c9.io_**](https://c9.io) to get the SSH key
 2. Create new account if you do not have one or sign in with existing account
@@ -41,8 +42,8 @@ In order to interact with the Github system, creating a Github account is essent
 10. Name the title "**cloud9**"
 11. Paste your copied SSH Key with command v (Mac) or control v (Windows)
       > You have successfully link cloud9 with Github!!
----
 
+---
 ## Repository Setup
 Since you have your Github account **NOW**, follow the steps below to create a repo  
 **_Repository_** : this is where you can save and store your local files onto an online remote.
@@ -119,6 +120,7 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 
 ## Workflow & Commands
 #### Command Line commands (Terminal Use)
+
 |Basic Commands|Syntax (Format)|Purpose and Use
 |--------------|------|-------|
 |cd|`cd [folder_name]`|move your current path to a different path (change of location in file system)
@@ -130,6 +132,7 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 |mv (2)|`mv [name] [existing_name]`|moves one file/folder into another
 |c9|`c9 [file_name]`|quick way to open a file  
 > Note that these commands might come handy but not necessary in working with git
+
 #### Git commands (Necessary)
 > This is just a chart of the commands, see below for further explanation  
 
