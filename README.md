@@ -13,6 +13,7 @@ _by Zhiyuan Chen_
     > This online website allows collaboration between many programmers because programmers can access 
     > each other's code and make changes that the original creator might approve.  
 ---
+
 ## Initial Setup
 In order to interact with the Github system, creating a Github account is essential.  
 **Note : All of this is subject to change by Github. This tutorial is made in October 2018**
@@ -41,6 +42,7 @@ In order to interact with the Github system, creating a Github account is essent
 11. Paste your copied SSH Key with command v (Mac) or control v (Windows)
       > You have successfully link cloud9 with Github!!
 ---
+
 ## Repository Setup
 Since you have your Github account **NOW**, follow the steps below to create a repo  
 **_Repository_** : this is where you can save and store your local files onto an online remote.
@@ -114,6 +116,7 @@ Since you have your Github account **NOW**, follow the steps below to create a r
       > You have completed the setup for the repository !!  
       > It is time to understand all those git commands !!
 ---
+
 ## Workflow & Commands
 #### Command Line commands (Terminal Use)
 |Basic Commands|Syntax (Format)|Purpose and Use
@@ -229,6 +232,7 @@ If you ever mess up your files or saved something you didn't want to... well und
 > You may chain a list of SHA by adding another SHA after the most recent commit  
 > This will bring you back 2 commits and so on if you repeat.  
 
+---
 ## Removing repository on Github/Local
 If you somehow what to delete your Github remote... then Follow these Instructions :  
 
