@@ -244,7 +244,7 @@ If you ever mess up your files or saved something you didn't want to... well und
 
 ---
 ## Removing repository on Github/Local
-If you somehow what to delete your Github remote... then Follow these Instructions :  
+If you somehow want to delete your Github remote... then Follow these Instructions :  
 
 1. Open up your repository on Github
 2. Go to the settings of the repository
@@ -263,4 +263,4 @@ If you want to remove the local repository... then Follow these Instructions as 
 gitus12345:~/workspace/music (master) $ cd ~/workspace
 gitus12345:~/workspace $ rm -rf music 
 ```
-And no, you will not type `music` like shown. Replace that with your local repository folder name !!
+And no, you will not type `music` like shown. Replace that with your local repository folder name.
