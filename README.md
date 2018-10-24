@@ -194,7 +194,7 @@ _**Use these commands in this order, exceptions to `git status`/`git remote -v`*
       > You would not need to use this command if you have went through the steps in the repository setup  
       > In general, this command tells your `git push` command where to push or upload files to.
 7. **`git remote -v`** :
-      > From previous command, it is important to have the remote link addded to the local git repository  
+      > From previous command, it is important to have the remote link added to the local git repository  
       > By typing this command, if nothing shows up, then you have not connected remote to your local repo  
       > With proper setup, you should see something like below :
 
