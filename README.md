@@ -30,6 +30,9 @@ In order to interact with the Github system, creating a Github account is essent
 
 ## SSH Key Setup
 1. Go on [**_c9.io_**](https://c9.io) to get the SSH key
+      > The SSH key is used as an automatic sign-in process  
+      > This links c9 to Github and will not require you to sign in with your password  
+      > That is the downside of using HTTPS which requires your password for every change that is sent to github.  
 2. Create new account if you do not have one or sign in with existing account
       > If you create your own account, you will likely need a credit card.
 3. Click on the settings icon on the upper right
@@ -120,7 +123,7 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 ---
 ## Workflow & Commands
 #### Command Line commands (Terminal Use)
-> This is just a list of commands that would make coding in the terminal faster
+> This is just a list of commands that would make coding in the terminal faster  
 > Note that these commands might come handy but not necessary in working with git
 
 |Basic Commands|Syntax (Format)|Purpose and Use
@@ -133,7 +136,7 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 |mv (1)|`mv [old_name] [new_name]`|renames a file or folder
 |mv (2)|`mv [name] [existing_name]`|moves one file/folder into another
 |c9|`c9 [file_name]`|quick way to open a file  
-|ls|`ls -`a``l``t`| list out files. a for hidden, l for long format, t for chronological order
+|ls|`ls -` `a` `l` `t`| list out files. a for hidden, l for long format, t for chronological order
 |pwd| `pwd`| unnecessary if you work in the c9 terminal. it tells you the current directory you are in
 
 #### Git commands (Necessary)
