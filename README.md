@@ -121,8 +121,8 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 
 ## Workflow & Commands
 #### Command Line commands (Terminal Use)
-
 > This is just a list of commands that would make coding in the terminal faster
+> Note that these commands might come handy but not necessary in working with git
 
 |Basic Commands|Syntax (Format)|Purpose and Use
 |--------------|------|-------|
@@ -136,7 +136,6 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 |c9|`c9 [file_name]`|quick way to open a file  
 |ls|`ls -`a``l``t`| list out files. a for hidden, l for long format, t for chronological order
 |pwd| `pwd`| unnecessary if you work in the c9 terminal. it tells you the current directory you are in
-> Note that these commands might come handy but not necessary in working with git
 
 #### Git commands (Necessary)
 > This is just a chart of the commands, see below for further explanation  
