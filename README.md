@@ -275,3 +275,34 @@ gitus12345:~/workspace/music (master) $ cd ~/workspace
 gitus12345:~/workspace $ rm -rf music 
 ```
 And no, you will not type `music` like shown. Replace that with your local repository folder name.
+
+---
+## Collaboration on Github
+
+In order to help edit someone else's project, you will need to `fork`
+
+* `Forking` : A process in which you make a copy of one's Github remote.   
+  * This allows you to make changes and push to a Github remote
+  * To fork a remote, you will have to visit another user's remote for example..  
+![remote](Images/fork.png)  
+  * Click the fork button and you will have your own copy of that remote in Github  
+![forking](Images/fork-loading.png)  
+  * When you see that, you are currently forking. Once it is done, you will be on a remote page.
+* `Cloning` : This process is necessary so you have the copy on the local c9 as well  
+  * Click the clone or download button  
+![cloning](Images/forked-repo.png)  
+  * Make sure it says clone with SSH and copy the url. 
+  * Go to c9 `bash` terminal and make sure you are in workspace (use `cd ~/workspace`)  
+  * type in `git clone` and paste url as well.   
+  * ```git clone git@github.com:git-us/about-dorwin.git```  
+* Follow the regular procedures of the workflow on cloud9 and then push commit to your copied remote.
+* `Pull request` : This process is to give suggestions to the remote user whom you copied your remote from.  
+![pull_request](Images/pull.png)  
+  * Click **New pull request**  
+  * Give a message for what you updated and press the green pull request button again.  
+  * Now... you just have to wait for your suggestions to be `rejected` or `accepted`.  
+* `Pull` : When you have suggestions, you can accept the pull request on Github
+  * Go to cloud9 and in your repository (`~/workspace/repo_name (master)`)  
+  * Type in `git pull`, if you are prompted for a branch, type `git pull origin master`
+  * Now your remote will have the suggestions other programmars offerd to you. 
+ 
