@@ -18,6 +18,8 @@ _by Zhiyuan Chen_
 In order to interact with the Github system, creating a Github account is essential.  
 **Note : All of this is subject to change by Github. This tutorial is made in October 2018**
 1. Go on [**_Github_**](https://github.com) <~~ Hover your mouse over & click to get access to Github directly.
+![github](Images/main-github-screen.png)
+      > This is how github will look like
 2. Go to the upper right corner and click **Sign up**
 3. For **Username**, give yourself a name that you can remember.
       > If your username is taken, you might have to alter it until Github approves.
@@ -25,6 +27,7 @@ In order to interact with the Github system, creating a Github account is essent
 5. For **Password**, give yourself a password such as ID Number
 6. Press the _green_ **Create an account** button
 7. Choose the free plan or spend $7 for the paid plan
+![github_setup](Images/step-2-setup.png)
 8. As you approach step 3 on Github, answer the questions about your experience
       > You have successfully created a Github account!!
 
@@ -35,6 +38,8 @@ In order to interact with the Github system, creating a Github account is essent
       > That is the downside of using HTTPS which requires your password for every change that is sent to github.  
 2. Create new account if you do not have one or sign in with existing account
       > If you create your own account, you will likely need a credit card.
+      ![AWS](Images/create-AWS-account.png)
+      > Please use the same email you used for creating your github account
 3. Click on the settings icon on the upper right
 4. On the very left side bar, you should be on **Settings**, click **SSH Keys**
 5. Copy the second SSH Key 
@@ -42,8 +47,11 @@ In order to interact with the Github system, creating a Github account is essent
 7. Click on personal icon and go to **Settings**
 8. Go to **SSH and GPG keys** 
 9. Click the button "**New SSH key**"
+![ssh_key](Images/SSH-KEY-page.png)
 10. Name the title "**cloud9**"
 11. Paste your copied SSH Key with command v (Mac) or control v (Windows)
+12. You should see this after confirming
+      ![added_ssh](Images/SSH-added.png)
       > You have successfully link cloud9 with Github!!
 
 ---
@@ -56,8 +64,9 @@ Since you have your Github account **NOW**, follow the steps below to create a r
 4. Give your repository a name
 5. Choose if you want to show it to the public or keep it private and Create Repository.
       > With that, You have successfully created a Github repository
-6. You will be redirected to a page with different lines of code
-7. From **Github** : Copy two lines of git commands similar to these below  
+6. You will be redirected to a page with different lines of code (remember to check that it is SSH url)  
+![git_commands](Images/repo_setup.png)
+7. From **there** : Copy two lines of git commands similar to these below  
       ```
       git remote add origin git@github.com:git-us/git-tutorial-demo.git
       git push -u origin master
@@ -248,7 +257,9 @@ If you somehow want to delete your Github remote... then Follow these Instructio
 
 1. Open up your repository on Github
 2. Go to the settings of the repository
+![repo_settings](Images/Repo-view.png)
 3. Scroll all the way down to an area called danger zone
+![Danger_Zone](Images/DangerZone.png)
 4. Click `Delete this repository`
 5. Enter the name of the repository in the pop up
 6. Well.. there you go. You have deleted your remote
