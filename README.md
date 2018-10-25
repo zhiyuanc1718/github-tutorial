@@ -38,8 +38,8 @@ In order to interact with the Github system, creating a Github account is essent
       > That is the downside of using HTTPS which requires your password for every change that is sent to github.  
 2. Create new account if you do not have one or sign in with existing account
       > If you create your own account, you will likely need a credit card.
-      ![AWS](Images/create-AWS-account.png)
       > Please use the same email you used for creating your github account
+![AWS](Images/create-AWS-account.png)
 3. Click on the settings icon on the upper right
 4. On the very left side bar, you should be on **Settings**, click **SSH Keys**
 5. Copy the second SSH Key 
